@@ -1,0 +1,31 @@
+{
+    "position": "top",
+    "height": 20,
+    "modules-left": ["river/tags", "clock"],
+    "modules-right": ["tray", "pulseaudio", "network", "battery"],
+    "river/tags": {},
+    "clock": {
+        "interval": 60,
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%A, %B %d, %Y}",
+	"locale": "C.UTF-8"
+    },
+    "pulseaudio": {
+        "format": "{icon}: {volume}%",
+        "format-icons": {
+            "default": "spk",
+            "headphone": "hph",
+            "headset": "hst"
+        },
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "{essid}",
+        "format-ethernet": "ethernet",
+        "format-disconnected": "disconnected"
+    },
+    "battery": {
+        "interval": 60,
+        "format": "bat: {capacity}%"
+    }
+}
