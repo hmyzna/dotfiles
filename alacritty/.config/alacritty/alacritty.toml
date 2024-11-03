@@ -4,3 +4,6 @@ normal = { family = "GeistMono NFM", style = "SemiBold" }
 
 [general]
 import = [ "gruvbox.toml" ]
+
+[window]
+dynamic_padding = true
