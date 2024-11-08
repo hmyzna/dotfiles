@@ -1,6 +1,6 @@
 # Super or windows key idk
 set $m Mod4
-set $term alacritty
+set $term foot
 set $drun fuzzel
 set $ss IMG=$(xdg-user-dir PICTURES)/screenshots/$(date +'%F_%T.png') && grim -t png $IMG && wl-copy -t image/png < $IMG
 
@@ -13,10 +13,14 @@ floating_modifier $m normal
 
 output eDP-1 scale 2
 output HDMI-A-1 mode 1920x1080@120Hz
-output * bg /home/xsttq/pictures/wallhaven-6o58l6.jpg fill
+output * bg /home/xsttq/pictures/wallhaven-kwx776.jpg fill
 
 default_border pixel 3
 default_floating_border pixel 3
+smart_borders on
+
+gaps inner 4
+smart_gaps on
 
 client.focused #466391 #466391 #466391 #7189b0 #466391
 client.focused_inactive #554e67 #554e67 #554e67 #554e67 #554e67

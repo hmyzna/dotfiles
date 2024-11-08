@@ -8,4 +8,4 @@ o.tabstop = 2
 o.shiftwidth = 2
 
 o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd("colorscheme nightfox")
